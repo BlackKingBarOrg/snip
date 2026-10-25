@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ai.bkblab.snip",
+  "name": "snip",
+  "version": "0.1.0",
+  "author": "bkblab.ai",
+  "description": "Bar button that captures a dragged screen region straight to the clipboard",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Region screenshot",
+    "description": "Click, drag a region, and the screenshot is on the clipboard",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
